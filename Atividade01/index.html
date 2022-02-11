@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mim</title>
-</head>
-<body>
-    <nav>
-        <ul>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sobre mim</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <nav>
+        <ul id="menu">
             <li>
                 <a href="index.html"> Home </a>
             </li>
@@ -15,49 +17,69 @@
                 <a href="contato.html"> Contato</a>
             </li>
         </ul>
-    </nav>
-    
-    <main>
+        </nav>
+
+        <main>
         <section id="sobreMim">
-            <h1>Sobre a Rebeca</h1>
-
-    <p>
-        Lorem ipsum dolor sit amed Sit vel sem transgender love family cross-dresser
-        glass-ceiling sem girl alliance Pride month lorem et eu dui sit Eu. Ze Tarana
-        Burke Grace Hopper Xe she Eu in fluidity ac vel Diritti id mi ut ac Genderless
-        homoflexible Rosa Parks ac ac Hannah Gadsby.
-    </p>
-    <p>
-        Eu Dian Fossey Dui ipsum eu sit stand ac pride month lorem Ac sorellanza second
-        wave sit friendship Mi a ut id eu Rosie the Riveter ac ut et et Sit in id.
-        In Carrie Fisher in Sit stand ac pride month lorem et eu dui sit eu Et empowerment
-        genderqueer intersex eu radical lorem eu Franca viola Laverne Cox Malala Yousafzai
-        id est.
-    </p>
-
-    <img 
-        src="https://github.com/RebecaMarquesSilva.png"
-        alt="Foto da criadora desse conteudo"
-    />
+            <h1 class="center">Sobre a Rebeca</h1>
+            <div class="container">
+                <div class="padding30">
+                    <p class="justify">
+                        Lorem ipsum dolor sit amed Sit vel sem transgender love family
+                        cross-dresser glass-ceiling sem girl alliance Pride month lorem et eu
+                        dui sit Eu. Ze Tarana Burke Grace Hopper Xe she Eu in fluidity ac vel
+                        Diritti id mi ut ac Genderless homoflexible Rosa Parks ac ac Hannah
+                        Gadsby.
+                        </p>
+                        <p class="justify">
+                        Eu Dian Fossey Dui ipsum eu sit stand ac pride month lorem Ac
+                        sorellanza second wave sit friendship Mi a ut id eu Rosie the Riveter
+                        ac ut et et Sit in id. In Carrie Fisher in Sit stand ac pride month
+                        lorem et eu dui sit eu Et empowerment genderqueer intersex eu radical
+                        lorem eu Franca viola Laverne Cox Malala Yousafzai id est.
+                    </p>
+                </div>
+                
+                <div>
+                    <img class="border padding30"
+                    src="./assets/images/95691251.jfif"
+                    alt="Foto da criadora desse conteudo"
+                    />
+                </div>
+            </div>
         </section>
 
-    <section id="meuVideo">
-        <h2>Meu vídeo favorito:</h2>
+        <section id="meuVideo">
+            <h2 class="center">Meu vídeo favorito:</h2>
 
-    <iframe
-        width="853"
-        height="480"
-        src="https://www.youtube.com/embed/Ejkb_YpuHWs?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" 
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-    </iframe>
-    </section>
-    </main>
+            <div class="container margem50">
+                <iframe
+                width="853"
+                height="480"
+                src="https://www.youtube.com/embed/Ejkb_YpuHWs?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                >
+                </iframe>
+            </div>
 
-    <footer>
-        <p>Feito por Rebeca Marques - 2022</p>
-    </footer>
-</body>
+        </section>
+        </main>
+        
+        <hr>
+        <footer>
+            <div class="container">
+                <a href="https://www.linkedin.com/in/rebecamarques-rmsg/" target="_blank">
+                    <img class="tamanhoLogo" src="assets/images/linkedin.png" alt="Logo do LinkedIn">
+                </a>
+                <a href="https://github.com/RebecaMarquesSilva" target="_blank">
+                    <img class="tamanhoLogo" src="assets/images/github.png" alt="Logo do GitHub">
+                </a>
+            </div>
+
+            <p class="center">&copy; Rebeca Marques - 2022</p>
+        </footer>
+    </body>
 </html>

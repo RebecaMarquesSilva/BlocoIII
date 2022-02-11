@@ -1,0 +1,62 @@
+/*Estilos da página index.html*/
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+    }
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    }
+
+#menu li a:hover {
+    color: gray;
+}
+
+.padding30 {
+    padding: 30px;
+}
+
+.border {
+    border-radius: 50%;
+}
+
+.tamanhoLogo {
+    width: 35px;
+    padding: 35px;
+
+}
+
+.margem50 {
+    margin-bottom: 50px;
+}
+
+
+/*Estilos da página contato.html*/
+
+.margemEsquerda {
+    margin-left: 50px;
+}
+
+
+
+
+
+
