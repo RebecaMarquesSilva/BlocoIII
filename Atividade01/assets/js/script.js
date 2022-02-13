@@ -1,6 +1,6 @@
 let nome = window.document.getElementById('nome')
 let email = document.querySelector('#email')
-let assunto = document.querySelector('#asssunto')
+let assunto = document.querySelector('#assunto')
 let nomeOk = false
 let emailOk = false
 let assuntoOk = false
@@ -38,13 +38,14 @@ function validaEmail() {
 }
 
 function validaAssunto() {
-    let txtAssunto = document.querySelector('#textoAssunto')
+    var txtAssunto = document.querySelector('#textoAssunto')
 
-    if(assunto.value.length >= 3) {
+    if(assunto.value.length >= 100) {
         txtAssunto.innerHTML = 'Digite no máximo 100 caracteres!'
         txtAssunto.style.color = 'red'
+        txtAssunto.style.display = 'block'
     } else {
-        txtAssunto.style.display = "none"
+        txtAssunto.style.display = 'none'
 
         assuntoOk = true
     }
@@ -53,7 +54,7 @@ function validaAssunto() {
 function enviar() {
     if(nomeOk == true && emailOk == true && assuntoOk == true) {
         alert("Formulário enviado com sucesso!")
-    } else("Preencha o formulário corretamente")
+    } else alert("Preencha o formulário corretamente")
 }
 
 function mapaZoom() {
